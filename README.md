@@ -18,7 +18,7 @@ This is a quick script to convolve a given audio signal with a given noise signa
     
     `input_signal` is the 'pure' input speech signal to convolve with the impulse response.
 
-    `--snr` option allows you to specify the signal-to-noise ratio. Defaults to `0db` (even mix between signal and noise).
+    `--snr` option allows you to specify the signal-to-noise ratio. Defaults to `∞ db` (no noise).
 
     `--noise` option allows you to specify the noise file used. Defaults to `./resources/babble.wav`
 
